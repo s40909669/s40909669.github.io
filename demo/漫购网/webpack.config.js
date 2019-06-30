@@ -88,7 +88,7 @@ module.exports = {
         new ExtractTextPlugin("css/sun.css"),
         new htmlWebpackPlugin({
             template: './src/index.html',
-            // favicon: './src/cms_project.ico'
+            favicon: 'demo.ico'
         }),
         new webpack.DefinePlugin({
             'process.env': {
