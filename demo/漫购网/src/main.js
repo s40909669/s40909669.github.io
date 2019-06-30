@@ -74,7 +74,7 @@ Axios.interceptors.response.use(function(config){
 
 
 
-//Moment:引入moment
+//Moment:引入moment 时间格式插件
 import Moment from 'moment';
 
 //VuePreview:引入vue-preview

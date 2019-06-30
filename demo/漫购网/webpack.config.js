@@ -54,20 +54,21 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/,
-                // options: {   如果多次使用babel-loader就需要多次options
-                //     presets: ['es2015'], //关键字
-                //     plugins: ['transform-runtime'], //函数
-                // }
+                options: {
+                    presets: ['es2015'], //关键字
+                    plugins: ['transform-runtime'], //函数
+                }
             },
             // 解析vue-preview的es6代码
-            {
-                test: /vue-preview.src.*?js$/,
-                loader: 'babel-loader',
+            // {
+                // test: /vue-preview.src.*?js$/,
+                // 'babel-loader'多次使用就要多次配置options: {
+                // loader: 'babel-loader',
                 // options: {   建议使用.babelrc文件，在当前根目录就可以了 避免引入插件多次添加代码
                 //     presets: ['es2015'], //关键字
                 //     plugins: ['transform-runtime'], //函数
                 // }
-            },
+            // },
             {
                 test: /\.vue$/,
                 loader: 'vue-loader'
