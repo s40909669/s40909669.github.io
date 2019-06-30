@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+.tmpl{
+    margin-bottom: 50px;
+}
+
+
+
+/*.thumbs{*/
+    /*display: flex;*/
+/*}*/
+/*.thumbs>div {*/
+    /*width: 100%;*/
+/*}*/
+/*.thumbs .my-gallery{*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+/*}*/
+/*.thumbs .my-gallery figure{*/
+    /*margin: 10px;*/
+    /*box-shadow: 0 0 10px #ccc;*/
+/*}*/
+/*.thumbs .my-gallery figure img{*/
+    /*width: 100%;*/
+    /*vertical-align: middle;*/
+/*}*/
